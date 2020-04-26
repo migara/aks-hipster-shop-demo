@@ -1,0 +1,3 @@
+[submodule "hipster-shop"]
+	path = hipster-shop
+	url = git@github.com:migara/hipster-shop.git
