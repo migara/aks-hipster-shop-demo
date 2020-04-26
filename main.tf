@@ -29,5 +29,10 @@ resource "azurerm_kubernetes_cluster" "main" {
     DND_REASON = "demo"
     RunStatus  = "NOSTOP"
   }
+
+  timeouts {
+    create = "30m"
+    update = "40m"
+  }
 }
 
